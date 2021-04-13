@@ -1,0 +1,11 @@
+git init 
+git add third.txt .
+git commit -m "adding third.txt"
+git log
+git add fourth.txt .
+git commit -m "adding fourth.txt"
+git rm third.txt --cached 
+git add .
+git commit -m "removing third.txt"
+git log
+git config --global core.pager
